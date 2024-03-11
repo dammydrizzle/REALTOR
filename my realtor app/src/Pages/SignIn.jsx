@@ -6,8 +6,8 @@ import OAuth from '../components/OAuth'
 export default function SignIn() {
   const [showPassword, setShowPassword] = useState(false)
   const [formData, setFormData] = useState({
-    email: " ",
-    password: " "
+    email: "",
+    password: ""
   })
   const {email, password} =formData
   function onChange(e) {
